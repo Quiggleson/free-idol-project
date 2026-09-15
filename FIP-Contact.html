@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#42C8F5" />
+    <title>"Hey there!"</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="topnav-contact">
+      <ul>
+        <li>
+          <a href="FIP-Home.html"
+            ><img
+              src="images/logo v2 sticker.png"
+              class="topnavitem-contact"
+              id="navlogo"
+              alt="FIP logo goes here :3"
+          /></a>
+        </li>
+
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="hamburger">&#9776;</label>
+        <div class="nav-menu orangeburger">
+          <li>
+            <a href="FIP-About.html"
+              ><div class="glow"><button class="topnavitem-contact" id="about-btn" aria-label="About">ABOUT</button></div></a
+            >
+          </li>
+          <li>
+            <a href="FIP-Volunteer.html"
+              ><div class="glow"><button class="topnavitem-contact" aria-label="Volunteer">VOLUNTEER</button></div></a
+            >
+          </li>
+          <li>
+            <a href="FIP-Contact.html"
+              ><div class="glow"><button class="topnavitem-contact active" aria-label="Contact">CONTACT</button></div></a
+            >
+          </li>
+          <li>
+            <a href="https://ko-fi.com/freeidolproject" target="blank"
+              ><div class="glow"><button class="topnavitem-contact" aria-label="Donate">DONATE</button></div></a
+            >
+          </li>
+        </div>
+      </ul>
+    </nav>
+    <div class="screen-dim"></div>
+    <div class="background image3">
+      <main>
+        <div class="contact-card">
+          <h1 class="welcome-home"><b>CONTACT</b></h1>
+          <p class="contact-text text-headroom">For project & business related inquiries, please reach out via email or use the form below.</p>
+          <p class="contact-text">For server related inquiries or collaborative requests, please create a ticket in our discord server.</p>
+          <hr/>
+          <form action="https://api.web3forms.com/submit" method="POST" enctype="multipart/form-data">
+            <input type="hidden" name="access_key" value="testtesttesttesttest">
+          <div class="test">
+            <label for="user-name">Name:</label><br>
+            <input type="text" id="user-name" name="name" class="center" maxlength="20" required><br><br>
+
+            <label for="user-email">E-mail Address:</label><br>
+            <input type="email" id="user-email" name="mail" class="center" required><br><br>
+            <!--<label for="user-discord">Discord:</label>
+            <input type="text" id="user-discord" name="discord" placeholder="username" required><br><br>-->
+            
+              <label for="user-comment" class="align-left">Comment:</label><br>            
+              <textarea id="user-comment" name="comment" placeholder="This message is currently blank" rows="6" cols="50" required></textarea><br><br>
+            <input type="submit" value="SEND">
+          </div>
+        </div> 
+      </main>      
+      </body>
+  <footer>
+    <div class="socialsdiv">
+        <span
+          ><a href="https://discord.gg/vTHhJCD" target="blank"
+            ><img src="images/discord-color-icon.png" class="socialslink" /></a
+          >&nbsp;</span
+        >
+        <span 
+          ><a href="https://www.youtube.com/@freeidolproject" target="blank"
+            ><img src="images/youtube_icon.png" class="socialslink" /></a
+          >&nbsp;</span
+        >
+        <span
+          ><a href="https://bsky.app/profile/freeidolproject.bsky.social" target="blank"
+            ><img src="images/bluesky_icon.png" class="socialslink" /> </a
+          >&nbsp;</span
+        >
+        <span
+          ><a href="https://www.instagram.com/free_idol_project/" target="blank"
+            ><img src="images/Instagram_icon.png" class="socialslink" /></a
+          >&nbsp;</span
+        >
+      </div>
+      <div class="bottomtags">FreeIdolProject@gmail.com</div>
+      <div class="bottomtags">© 2028 FREE IDOL Project</div>
+    </div>
+    </div>
+  </footer>
+</html>
